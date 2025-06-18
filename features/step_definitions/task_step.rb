@@ -56,7 +56,7 @@ end
 
 When('I fill in {string} with {string}') do |field, value|
   testIdMap = {
-    "Title" => "task-title-input",
+    "Title" => "task-title-input"
   }
   testid = testIdMap[field]
   if testid.nil?
