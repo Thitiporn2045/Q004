@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "tasks#index"
   get "brags/index"
   resources :tasks
   get "brags", to: "brags#index", as: :brags
